@@ -1,0 +1,93 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.col-lg-6.block-box {
+  border: 1px solid #2badd0cc;
+}
+
+.title {
+  background: #1687ca;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.title span {
+  margin-left: 20px;
+}
+
+.box {
+  display: flex;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 20px;
+  cursor: pointer;
+}
+.active{
+  border: 3px solid #000;
+}
+.item:nth-child(2){
+  background-color: green;
+}
+.item:nth-child(3){
+  background-color: blue;
+}
+.item:nth-child(4){
+  background-color: #ccc;
+}
+.group-btn {
+  margin: 20px;
+}
+
+.container-fluid .row:nth-child(2) {margin-top: 50px;}
+
+.container-fluid {}
+
+.container-fluid .row:nth-child(2) .box {
+  margin-top: 20px;
+  color: #000;
+  border: 4px solid #000;
+  padding: 20px;
+}
+.change-text{
+  border: 1px solid #2badd0cc;
+}
+span{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+.container-fluid .row:nth-child(2) span {
+  width: auto;
+  height: auto;
+}
